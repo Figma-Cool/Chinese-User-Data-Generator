@@ -1,6 +1,6 @@
 {
-  "name": "Chinese fake data",
-  "id": "863758410281798732",
+  "name": "Chinese User Data Generator",
+  "id": "864052338727969891",
   "api": "1.0.0",
   "main": "code.js",
   "ui": "ui.html"
