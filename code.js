@@ -1,4 +1,4 @@
-figma.showUI(__html__, { width: 250, height: 235 });
+figma.showUI(__html__, { width: 250, height: 300 });
 
 let selectionArr = figma.currentPage.selection;
 figma.ui.postMessage({
@@ -28,6 +28,8 @@ figma.ui.onmessage = msg => {
         msg.mail ? nodeItem.characters = msg.mail[index] : null
         msg.province ? nodeItem.characters = msg.province[index] : null
         msg.city ? nodeItem.characters = msg.city[index] : null
+        msg.id ? nodeItem.characters = msg.id[index] : null
+        msg.text ? nodeItem.characters = msg.text[index] : null
     }
 
     selectionArr.forEach((item, index) => {
