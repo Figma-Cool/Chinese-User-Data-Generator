@@ -3,5 +3,8 @@
   "id": "864052338727969891",
   "api": "1.0.0",
   "main": "code.js",
-  "ui": "ui.html"
+  "ui": "ui.html",
+  "relaunchButtons": [
+    { "command": "open", "name": "Run Chinese User Data Generator" }
+  ]
 }
